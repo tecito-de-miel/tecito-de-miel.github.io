@@ -1,0 +1,433 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#CardContainer1
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 1px 1px 1px 1px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+@media all and (max-width:480px) 
+{
+#CardContainer1
+{
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+}
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 5px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Card1
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: #F0F0FF;
+   background-image: none;
+   border: 1px solid #D8D8FE;
+   border-radius: 5px;
+   margin: 10px 10px 10px 10px;
+   padding: 0;
+   text-align: left;
+}
+#Card1-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card1-card-overlay
+{
+   position: relative;
+   max-width: 70px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 5px 5px 0 0;
+   margin: 10px 10px 10px 10px;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   max-width: 70px;
+   width: calc(100% - 20px);
+   height: 50px;
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: -1;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   margin: 10px 10px 2px 70px;
+   padding: 0;
+   color: #0C0B73;
+   font-family: Inter;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item2
+{
+   box-sizing: border-box;
+   margin: 2px 10px 10px 70px;
+   padding: 0;
+   color: #14138B;
+   font-family: Inter;
+   font-weight: normal;
+   font-size: 17px;
+}
+#Card1-card-item3
+{
+   box-sizing: border-box;
+   margin: 10px 0px 10px 0px;
+   border-top: 1px #D8D8FE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#Card1-card-item4
+{
+   box-sizing: border-box;
+   border-radius: 0 0 5px 5px;
+   margin: 2px 10px 10px 10px;
+   padding: 0;
+   color: #1F1EAC;
+   font-family: Inter;
+   font-weight: normal;
+   font-size: 17px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0px 10px 0px 10px;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#CardContainer2
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 1px 1px 40px 1px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+@media all and (max-width:480px) 
+{
+#CardContainer2
+{
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+}
+}
+#wb_Card2
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: #F0F0FF;
+   background-image: none;
+   border: 1px solid #D8D8FE;
+   border-radius: 5px;
+   margin: 10px 10px 10px 10px;
+   padding: 0;
+   text-align: left;
+}
+#Card2-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card2-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 5px 5px 0 0;
+   margin: 10px 10px 2px 10px;
+   padding: 0;
+   color: #0C0B73;
+   font-family: Inter;
+   font-weight: normal;
+   font-size: 17px;
+}
+#Card2-card-item1
+{
+   box-sizing: border-box;
+   margin: 2px 10px 10px 10px;
+   padding: 0;
+   color: #0C0B73;
+   font-family: Inter;
+   font-weight: normal;
+   font-size: 16px;
+}
+#Card2-card-item2
+{
+   box-sizing: border-box;
+   margin: 10px 0px 10px 0px;
+   border-top: 1px #D8D8FE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#Card2-card-item3
+{
+   box-sizing: border-box;
+   border-radius: 0 0 5px 5px;
+   margin: 2px 10px 10px 10px;
+   padding: 0;
+   color: #1F1EAC;
+   font-family: Inter;
+   font-weight: normal;
+   font-size: 16px;
+}
+#wb_Card3
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: #F0F0FF;
+   background-image: none;
+   border: 1px solid #D8D8FE;
+   border-radius: 5px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Card3-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 16px;
+   box-sizing: border-box;
+   border-radius: 5px 5px 0 0;
+   margin: 10px 10px 10px 10px;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #1F1EAC;
+   font-family: Inter;
+   font-weight: normal;
+   font-size: 16px;
+}
+#Card3-card-item0 a
+{
+   color: #1F1EAC;
+   text-decoration: none;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   z-index: 7777;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 10px 0px 10px 0px;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
